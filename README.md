@@ -1,27 +1,32 @@
-# Data Exploration and Cleaning Using Pandas
+# 📊 Pandas Data Cleaning & Exploration
 
-## Objective
-
-The objective of this project is to perform basic data exploration and data cleaning using Pandas.
+## Overview
+This project demonstrates data cleaning and exploratory data analysis (EDA) using Pandas on a combined dataset.
 
 ## Tasks Performed
+- Loaded and explored the dataset
+- Inspected columns, data types, and dataset structure
+- Handled missing values
+- Filtered data based on ratings and discounts
+- Checked and removed duplicate records
+- Created a new feature: `total_amount`
+- Exported the cleaned dataset
 
-1. Loaded the CSV dataset into a Pandas DataFrame.
-2. Explored the dataset using head(), tail(), shape(), columns, and info().
-3. Identified and handled missing values.
-4. Performed filtering and column selection operations.
-5. Checked and removed duplicate records.
-6. Created a derived column named total_amount.
-7. Saved the cleaned dataset as a new CSV file.
-
-## Files Included
-
-- Combined_dataset.csv
-- cleaned_dataset.csv
-- week1_Assignment.ipynb
-
-## Tools Used
-
+## Technologies Used
 - Python
 - Pandas
 - Jupyter Notebook
+
+## Output
+- Cleaned dataset: `cleaned_data.csv`
+
+## Learning Outcomes
+- Data Loading & Inspection
+- Missing Value Handling
+- Data Filtering
+- Duplicate Removal
+- Feature Engineering
+- Data Export using Pandas
+
+## Author
+**Samira**
